@@ -7,8 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "john@lordsonline.org",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: This package contains various file utilities including file 
-converters.
-License: What license it uses
+Description: This package contains various file utilities including file converters.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
