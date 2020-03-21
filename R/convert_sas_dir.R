@@ -12,6 +12,9 @@
 #'  be created if not already present.
 #' @param to_ext
 #' either 'csv' or 'rds' options are available.
+#'
+#' @export
+#'
 convert_sas_dir <- function(file_path, write_path, to_ext = "rds"){
   file_names <- list.files(path = file_path, pattern = "sas7bdat", full.names = T)
   purrr::map(file_names, ~ convert_sas(., write_path, to_ext))

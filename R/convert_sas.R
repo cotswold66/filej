@@ -13,6 +13,8 @@
 #' @param to_ext
 #' either 'csv' or 'rds' options are available.
 #'
+#' @export
+#'
 convert_sas <- function(file, write_path, to_ext = "rds") {
   if(!file.exists(write_path)) dir.create(write_path, recursive = T)
   fn <- basename(file)
