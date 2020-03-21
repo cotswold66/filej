@@ -11,3 +11,9 @@ Description: This package contains various file utilities including file convert
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    dplyr,
+    haven,
+    purrr,
+    readr
+RoxygenNote: 7.0.2
